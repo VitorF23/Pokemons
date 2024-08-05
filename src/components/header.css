@@ -1,0 +1,41 @@
+.header {
+  border-bottom: 3px solid red;
+}
+
+header > img {
+  width: 10%;
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header > nav {
+  margin-right: 100px;
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 20px;
+  font-size: 30px;
+}
+
+@media (max-width: 1024px) {
+  a {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  header > img {
+    width: 15%;
+  }
+}

@@ -1,0 +1,16 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+
+main p {
+  font-size: 40px;
+}
+
+@media (max-width: 1024px) {
+  main p {
+    font-size: 30px;
+  }
+}
